@@ -1,0 +1,23 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"main": "src/app.js",
+	"repository": "git@github.com:amazon-hackathon/backend.git",
+	"author": "prince-ao <princead@tutanota.com>",
+	"type": "module",
+	"scripts": {
+		"start": "node src/app.js",
+		"dev": "nodemon src/app.js"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"mongoose": "^6.5.1"
+	},
+	"devDependencies": {
+		"jsonwebtoken": "^8.5.1",
+		"nodemon": "^2.0.19"
+	}
+}
